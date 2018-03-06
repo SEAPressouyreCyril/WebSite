@@ -4,10 +4,15 @@
         <meta charset="UTF-8" />
         <title>{% block title %}Welcome!{% endblock %}</title>
         {% block stylesheets %}{% endblock %}
+        <link rel="stylesheet" href="{{ asset('Resources/public/css/materialize.css') }}" /> <!-- css materialize vois sur le site pour faire un beau style -->
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+        <script src="{{ asset('Resources/public/js/jquery-3.3.1.min.js') }}"></script> 
+        <script src="{{ asset('Resources/public/js/materialize.js') }}"></script> 
+
     </head>
     <body>
-        {% block body %}{% endblock %}
+        {% block body %}{% endblock %} 
         {% block javascripts %}{% endblock %}
     </body>
 </html>
+<!-- cette page est cense etre tout le temps appelée

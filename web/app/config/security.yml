@@ -22,3 +22,4 @@ security:
 
             # https://symfony.com/doc/current/security/form_login_setup.html
             #form_login: ~
+#c'est ici que tu vas mettre en place l'authentification ia des tutos sur internet
